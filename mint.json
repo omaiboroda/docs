@@ -30,10 +30,6 @@
     {
       "name": "SDK Reference",
       "url": "sdk-reference"
-    },
-    {
-      "name": "SDK Reference 2",
-      "url": "sdk-reference 2"
     }
   ],
   "anchors": [
@@ -46,11 +42,6 @@
       "name": "Community",
       "icon": "discord",
       "url": "https://discord.com/invite/79JuDTNEQm"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -71,6 +62,24 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "SDK Reference",
+      "pages": [
+        "sdk-reference/introduction",
+        {
+          "group": "Python",
+          "pages": [
+            "sdk-reference/python/introduction"
+          ]
+        },
+        {
+          "group": "Typescript",
+          "pages": [
+            "sdk-reference/typescript/introduction"
+          ]
+        }
       ]
     }
   ],
