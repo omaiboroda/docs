@@ -1,46 +1,51 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Restack",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://components.restack.io/restack-logo-small.svg",
+    "light": "https://components.restack.io/restack-logo-small.svg"
   },
   "favicon": "/favicon.svg",
+  "theme": "prism",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#7957FF",
+    "light": "#a189ff",
+    "dark": "#493499",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#7957FF",
+      "to": "#a189ff"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Our website",
+      "url": "https://restack.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Login",
+    "url": "https://console.restack.io"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "SDK Reference",
+      "url": "sdk-reference"
+    },
+    {
+      "name": "SDK Reference 2",
+      "url": "sdk-reference 2"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "About Restack",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://restack.io"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.com/invite/79JuDTNEQm"
     },
     {
       "name": "Blog",
@@ -67,25 +72,11 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "github": "https://github.com/restackio",
+    "linkedin": "https://linkedin.com/company/restackio"
   }
 }
